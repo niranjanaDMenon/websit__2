@@ -1,0 +1,44 @@
+body{
+    background-color: lightsteelblue;
+}
+            
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: coral;
+    font: italic;
+    font-family: Verdana ;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img {
+    background-color: lightblue;
+    border: 2px solid black;
+    
+}
+.origami{
+    border-radius: 20px;
+    background-color: cornsilk;
+    width: 320pt;
+    border-style: none;
+    gap: 30px;
+    text-align: center;
+}
+.bodyimg {
+    position: relative;
+  }
+.bodytext {
+    position: absolute;
+  top: 20px;
+  text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
